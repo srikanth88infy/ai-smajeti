@@ -29,16 +29,17 @@ This bootcamp builds on our two previous courses, [LLM Engineering](https://mave
 - Large Language Model Ops (LLM Ops, or LLMOps (as from [WandB](https://docs.wandb.ai/guides/prompts) and [a16z](https://a16z.com/emerging-architectures-for-llm-applications/))) refers to the emerging best-practices, tooling, and improvement processes used to manage production LLM applications throughout the AI product lifecycle.  LLM Ops is a subset of Machine Learning Operations (MLOps) that focuses on LLM-specific infrastructure and ops capabilities required to build, deploy, monitor, and scale complex LLM applications in production environments.  _This term is being used much less in industry these days._
 =======
 During the *prototyping* phase, Prompt Engineering, [Retrieval Augmented Generation (RAG)](https://www.youtube.com/playlist?list=PLrSHiQgy4VjFlWgcLHatJCBgfeE8smVyP), and [Fine-Tuning](https://www.youtube.com/playlist?list=PLrSHiQgy4VjGMzyXsSlvN-TjPaqFFsAGP) are all necessary tools to be able to understand and leverage. Prototyping includes:
-- Building RAG Applications
+- Building with Agent and Multi-Agent Frameworks
 - Fine-Tuning LLMs & Embedding Models
-- Building Agent/Reasoning Applications
-- LLM Application Deployment
+- Building Agent Applications
+- Deploying LLM Prototype Applications to Users
 
 When *productionizing* LLM application prototypes, there are many important aspects ensuring helpful, harmless, honest, reliable, and scalable solutions for your customers or stakeholders. Productionizing includes:
-- RAG Evaluation and Improvement
-- Monitoring and Visibility Tooling
-- Efficient Inference and Serving
-- Scaling LLM Applications
+- Evaluating RAG and Agent Applications
+- Improving Search and Retrieval Pipelines for Production
+- Monitoring Production KPIs for LLM Applications
+- Setting up Inference Servers for LLMs and Embedding Models
+- Building LLM Applications with Scalable, Production-Grade Components
 
 This bootcamp builds on our two previous courses, [LLM Engineering](https://maven.com/aimakerspace/llm-engineering) and [LLM Operations](https://maven.com/aimakerspace/llmops) 👇
 
