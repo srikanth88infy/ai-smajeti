@@ -1,5 +1,6 @@
 import os
 from typing import List
+from pypdf import PdfReader
 
 
 class TextFileLoader:
@@ -13,6 +14,8 @@ class TextFileLoader:
             self.load_directory()
         elif os.path.isfile(self.path) and self.path.endswith(".txt"):
             self.load_file()
+        elif os.path.isfile(self.path) and self.path.endswith(".pdf"):
+            self.load_pdf()
         else:
             raise ValueError(
                 "Provided path is neither a valid directory nor a .txt file."
@@ -21,6 +24,14 @@ class TextFileLoader:
     def load_file(self):
         with open(self.path, "r", encoding=self.encoding) as f:
             self.documents.append(f.read())
+
+    def load_pdf(self):
+        """Extract text from PDF file."""
+        reader = PdfReader(self.path)
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() + "\n"
+        self.documents.append(text.strip())
 
     def load_directory(self):
         for root, _, files in os.walk(self.path):
