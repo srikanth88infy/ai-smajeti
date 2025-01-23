@@ -7,6 +7,7 @@
 
 | 🤓 Pre-work | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+| [Session 4: Pre-Work](https://www.notion.so/Session-4-RAG-and-Evaluation-with-LangChain-LangSmith-17bcd547af3d805aa734d01fce1a057e?pvs=4#183cd547af3d8048a602eb915836bef9)| [Session 4: RAG and Evaluation with LangChain & LangSmith](https://www.notion.so/Session-4-RAG-and-Evaluation-with-LangChain-LangSmith-17bcd547af3d805aa734d01fce1a057e) | Coming Soon! | Coming Soon! | You are here! | Coming Soon! | [AIE5 Feedback 1/23](https://forms.gle/pzwREd3RVRgp6D4q9) |
 
 # Build 🏗️
 
@@ -14,7 +15,7 @@ If running locally:
 
 1. `uv sync`
 2. Open the notebook
-3. Select the venv created by `uv sync`
+3. Select the venv created by `uv sync` as your kernel
 
 Run the notebook ([Colab link](https://colab.research.google.com/drive/16oa0AloaLOTm94l0dmqUYN3bLe846UZk?usp=sharing)) and complete the contained tasks:
 
@@ -23,6 +24,7 @@ Run the notebook ([Colab link](https://colab.research.google.com/drive/16oa0Aloa
   2. Set Environment Variables  
   3. Initialize a Simple Chain using LCEL
   4. Implement Naive RAG using LCEL
+  5. Implement Simple RAG using LCEL
 
 - 🤝 Breakout Room #2:
   1. Install LangGraph
@@ -42,7 +44,7 @@ Optionally, you can run the LangSmith and Evaluation notebook ([Colab link](http
 
 # Ship 🚢
 
-- The completed notebooks. 
+- The completed notebook. 
 - 5min. Loom Video
 
 # Share 🚀
