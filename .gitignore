@@ -1,3 +1,5 @@
+# Ignore README files as its causing headache
+*.README.md
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
